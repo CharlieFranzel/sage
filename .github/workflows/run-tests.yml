@@ -1,7 +1,7 @@
 name: Run Python Unit Tests
-
 # Trigger the workflow on pull requests
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - main  # Adjust this if your main branch has a different name
